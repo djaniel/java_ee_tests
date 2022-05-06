@@ -29,6 +29,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(com.test.xlim.HelloWorld.class);
+        resources.add(com.test.xlim.SetParameterResource.class);
     }
     
 }
